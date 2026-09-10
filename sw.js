@@ -1,7 +1,7 @@
 'use strict';
 const SCOPE=new URL(self.registration.scope);
 const PREFIX='lele-pages:'+SCOPE.pathname+':';
-const CACHE=PREFIX+'v2';
+const CACHE=PREFIX+'v3';
 const APP_URL=new URL('./index.html',SCOPE).href;
 const ASSETS=['./manifest.webmanifest','./icon-180.png','./icon-192.png','./icon-512.png'].map(path=>new URL(path,SCOPE).href);
 async function appResponse(response){

@@ -1,6 +1,6 @@
 # LêLê — Leitura infantil
 
-Aplicativo de leitura em português, pronto para hospedar no GitHub Pages. Esta cópia inclui as melhorias de 10/09/2026: botão amarelo de pular ao lado do microfone, fala suave com preferência por vozes femininas disponíveis no aparelho, 60 palavras canônicas, três níveis, partidas de cinco palavras, três vidas, duas chances por palavra, pulos configuráveis, dicas que falam as sílabas, treino livre e revisão por um adulto.
+Aplicativo de leitura em português, pronto para hospedar no GitHub Pages. Esta cópia inclui as melhorias de 10/09/2026: botão amarelo de pular ao lado do microfone, fala suave com preferência por vozes femininas disponíveis no aparelho, 60 palavras, três níveis, partidas de cinco palavras, três vidas, duas chances por palavra, pulos configuráveis, sistema “Quero uma ajuda” com limite ajustável, pista visual por palavra, áudio liberado dentro da ajuda, treino livre e revisão por um adulto.
 
 ## Publicar pelo navegador do computador
 
@@ -31,9 +31,18 @@ Não é necessário instalar dependências, executar comandos ou configurar chav
 
 Abra o endereço publicado diretamente no Safari. Toque em **Compartilhar → Adicionar à Tela de Início → Adicionar**. Permita o microfone ao iniciar a leitura. Se o reconhecimento não funcionar pelo ícone, abra o mesmo endereço no Safari. O reconhecimento de voz pode exigir internet e depende do navegador e das permissões do aparelho.
 
-Na área do adulto, responda **13** à conta de entrada. Ali é possível ajustar o limite de pulos, escolher e ouvir a voz, acompanhar os resultados e corrigir uma avaliação por voz que tenha consumido uma vida indevidamente.
+Na área do adulto, responda **13** à conta de entrada. Ali é possível ajustar o limite de ajudas e de pulos, escolher e ouvir a voz, acompanhar os resultados e corrigir uma avaliação por voz que tenha consumido uma vida indevidamente.
 
-As palavras, as dicas visuais e a conferência por adulto podem funcionar offline depois de o aplicativo preparar a cópia local. A fala depende das vozes do aparelho. O Safari pode remover dados locais para liberar espaço.
+As palavras, as pistas visuais e a conferência por adulto podem funcionar offline depois de o aplicativo preparar a cópia local. A fala depende das vozes do aparelho. O Safari pode remover dados locais para liberar espaço.
+
+## Como funciona a ajuda
+
+- A partida começa com **2 ajudas** por padrão; o adulto pode escolher de 1 a 5 para as próximas partidas.
+- Ao tocar em **Quero uma ajuda**, uma pista visual aparece e o botão **Ouvir palavra** é liberado para aquela palavra.
+- A ajuda é consumida uma única vez por palavra. Repetir o áudio da palavra não gasta outra ajuda.
+- Um acerto depois de pedir ajuda vale **5 pontos** e fica registrado como **Com ajuda**.
+- No **Treino livre**, as ajudas e os pulos não têm limite e não há pontuação nem perda de vidas.
+- As pistas usam pictogramas simples para manter o aplicativo leve e disponível offline. Palavras abstratas usam símbolos visuais de associação.
 
 ## Histórico e atualizações
 
